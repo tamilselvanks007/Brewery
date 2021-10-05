@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,600&display=swap');
 
 body{
-    background : url("https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+    background : lightseagreen;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .brewery{
-  background: #080a09;
+  background: #fff;
   margin-bottom: 10px;
-  color: white;
+  color: red;
   padding: 20px;
   width: 250px;
   border-radius: 0.5rem;
@@ -24,7 +24,7 @@ body{
 }
 
 .name{
-    color: #ffe4d4;
+    color: #000;
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
@@ -60,7 +60,7 @@ section{
 }
 
 a{
-    color: white;
+    color: red;
     text-decoration-line:none;
     text-align: justify;
 }
