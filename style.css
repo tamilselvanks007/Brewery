@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,600&display=swap');
+
+body{
+    background : url("https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brewery{
+  background: #080a09;
+  margin-bottom: 10px;
+  color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 0.5rem;
+}
+
+.brewery:hover{
+    transform: scale(1.1);
+    box-shadow: 6px 4px 24px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 4px 24px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 4px 24px -1px rgba(0,0,0,0.75);
+}
+
+.name{
+    color: #ffe4d4;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-top: 18px;
+    text-shadow: 2px 0px 1px rgba(253,253,253,0.6);
+}
+
+.type{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.details{
+    margin-top: 18px;
+}
+
+section{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration-line:none;
+    text-align: justify;
+}
+
+a:hover{
+    color: skyblue;
+    font-weight: bold;
+}
+
+p{
+    margin-right: 5px;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+@media(min-width:600px){
+
+.brewery{
+    width:450px;
+}    
+
+}
